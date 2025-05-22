@@ -58,7 +58,7 @@ Ecommerce/
 │   └── README.MD                 # Starter backend documentation
 │
 └── README.md                     # Main project documentation
-```
+
 
 git clone https://github.com/daveontrack/ECOMMERCE_MINI_PROJECT.git
 cd ECOMMERCE
