@@ -29,19 +29,36 @@ A mini e-commerce web application where users can browse products, add them to a
 ## 📁 Project Structure
 
 ```bash
-ECOMMERCE_MINI_PROJECT/
-├── client/                # Frontend files (React or static)
-│   ├── public/
-│   └── src/
-├── server/                # Backend files (Express/Django)
-│   ├── routes/
-│   ├── models/
-│   └── controllers/
-├── .env                   # Environment variables
-├── package.json           # Node dependencies (if Node.js)
-├── requirements.txt       # Python dependencies (if Django)
-└── README.md              # Project documentation
-
+Ecommerce/
+├── final/                         # Final full-stack project
+│
+├── final-front-end/              # Front-end versions
+│   ├── front-end/                # Vanilla HTML/CSS/JS version
+│   │   ├── index.html            # Main HTML file
+│   │   ├── browser-app.js        # JavaScript logic
+│   │   ├── main.css              # Core styles
+│   │   └── normalize.css         # CSS normalization
+│   │
+│   └── react-front-end/          # React-based front-end
+│       ├── public/               # Static assets (HTML, icons, etc.)
+│       ├── src/                  # React components and logic
+│       ├── .gitignore            # Git ignore rules for React
+│       └── README.md             # Front-end documentation
+│
+├── starter/                      # Starter back-end setup (Express-based)
+│   ├── db/                       # Database connection or models
+│   ├── errors/                   # Custom error handling utilities
+│   ├── middleware/              # Express middleware
+│   ├── mockData/                 # Sample data for testing
+│   ├── app.js                    # Main Express server entry point
+│   ├── package.json              # Project metadata and dependencies
+│   ├── package-lock.json         # Exact dependency versions
+│   ├── .gitignore                # Files to ignore in Git
+│   ├── Procfile                  # For deployment (e.g., Heroku)
+│   └── README.MD                 # Starter backend documentation
+│
+└── README.md                     # Main project documentation
+```
 
 git clone https://github.com/daveontrack/ECOMMERCE_MINI_PROJECT.git
 cd ECOMMERCE
@@ -54,7 +71,7 @@ npm run dev
 
 
 
----
+
 
 If you tell me more about the technologies you used (Node.js, React, etc.), I can tailor this even more specifically.
 
